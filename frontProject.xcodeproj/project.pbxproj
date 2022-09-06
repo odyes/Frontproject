@@ -14,6 +14,9 @@
 		3DD053B628C78F7A00A28BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD053B428C78F7A00A28BA5 /* LaunchScreen.storyboard */; };
 		3DD053C128C78F7A00A28BA5 /* frontProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD053C028C78F7A00A28BA5 /* frontProjectTests.swift */; };
 		3DD053CC28C78F7A00A28BA5 /* frontProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD053CB28C78F7A00A28BA5 /* frontProjectUITests.swift */; };
+		3DD053DC28C794AE00A28BA5 /* mexican_knappett.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD053DB28C794AE00A28BA5 /* mexican_knappett.ttf */; };
+		3DD053DE28C795B600A28BA5 /* Tacos de Tijuana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD053DD28C795B600A28BA5 /* Tacos de Tijuana.ttf */; };
+		3DD053E028C795C900A28BA5 /* RachelBrown.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD053DF28C795C900A28BA5 /* RachelBrown.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3DD053C728C78F7A00A28BA5 /* frontProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frontProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD053CB28C78F7A00A28BA5 /* frontProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frontProjectUITests.swift; sourceTree = "<group>"; };
 		3DD053CD28C78F7A00A28BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD053DB28C794AE00A28BA5 /* mexican_knappett.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mexican_knappett.ttf; sourceTree = "<group>"; };
+		3DD053DD28C795B600A28BA5 /* Tacos de Tijuana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tacos de Tijuana.ttf"; sourceTree = "<group>"; };
+		3DD053DF28C795C900A28BA5 /* RachelBrown.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RachelBrown.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		3DD053AA28C78F7700A28BA5 /* frontProject */ = {
 			isa = PBXGroup;
 			children = (
+				3DD053DB28C794AE00A28BA5 /* mexican_knappett.ttf */,
+				3DD053DF28C795C900A28BA5 /* RachelBrown.ttf */,
+				3DD053DD28C795B600A28BA5 /* Tacos de Tijuana.ttf */,
 				3DD053AB28C78F7700A28BA5 /* AppDelegate.swift */,
 				3DD053AD28C78F7700A28BA5 /* ViewController.swift */,
 				3DD053AF28C78F7700A28BA5 /* Main.storyboard */,
@@ -231,7 +240,10 @@
 			files = (
 				3DD053B628C78F7A00A28BA5 /* LaunchScreen.storyboard in Resources */,
 				3DD053B328C78F7A00A28BA5 /* Assets.xcassets in Resources */,
+				3DD053E028C795C900A28BA5 /* RachelBrown.ttf in Resources */,
+				3DD053DC28C794AE00A28BA5 /* mexican_knappett.ttf in Resources */,
 				3DD053B128C78F7700A28BA5 /* Main.storyboard in Resources */,
+				3DD053DE28C795B600A28BA5 /* Tacos de Tijuana.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
