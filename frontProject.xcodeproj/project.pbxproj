@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D82D0F828CA7D9F00DF96DA /* musicafondo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D82D0F728CA7D9E00DF96DA /* musicafondo.mp3 */; };
 		3DD053AC28C78F7700A28BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD053AB28C78F7700A28BA5 /* AppDelegate.swift */; };
 		3DD053AE28C78F7700A28BA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD053AD28C78F7700A28BA5 /* ViewController.swift */; };
 		3DD053B128C78F7700A28BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD053AF28C78F7700A28BA5 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D82D0F728CA7D9E00DF96DA /* musicafondo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicafondo.mp3; sourceTree = "<group>"; };
 		3DD053A828C78F7700A28BA5 /* frontProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frontProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD053AB28C78F7700A28BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD053AD28C78F7700A28BA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				3DD053DB28C794AE00A28BA5 /* mexican_knappett.ttf */,
+				3D82D0F728CA7D9E00DF96DA /* musicafondo.mp3 */,
 				3DD053DF28C795C900A28BA5 /* RachelBrown.ttf */,
 				3DD053DD28C795B600A28BA5 /* Tacos de Tijuana.ttf */,
 				3DD053AB28C78F7700A28BA5 /* AppDelegate.swift */,
@@ -240,6 +243,7 @@
 			files = (
 				3DD053B628C78F7A00A28BA5 /* LaunchScreen.storyboard in Resources */,
 				3DD053B328C78F7A00A28BA5 /* Assets.xcassets in Resources */,
+				3D82D0F828CA7D9F00DF96DA /* musicafondo.mp3 in Resources */,
 				3DD053E028C795C900A28BA5 /* RachelBrown.ttf in Resources */,
 				3DD053DC28C794AE00A28BA5 /* mexican_knappett.ttf in Resources */,
 				3DD053B128C78F7700A28BA5 /* Main.storyboard in Resources */,

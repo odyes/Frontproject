@@ -27,12 +27,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-Da-13P">
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-Da-13P">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cKc-YS-oZn">
+                                <rect key="frame" x="0.0" y="55" width="375" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.65226142435417678" green="1" blue="0.46506915910241209" alpha="0.63992936643835618" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEXICAN FOOD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLQ-S9-9q8">
-                                <rect key="frame" x="0.0" y="81.666666666666671" width="375" height="40"/>
+                                <rect key="frame" x="0.0" y="81" width="375" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" name="TacosdeTijuana" family="Tacos de Tijuana" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,15 +57,55 @@
                                     <outletCollection property="gestureRecognizers" destination="MAh-sM-T31" appends="YES" id="wjZ-cb-iHl"/>
                                 </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VEc-eo-0fD">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tamales1" translatesAutoresizingMaskIntoConstraints="NO" id="VEc-eo-0fD">
                                 <rect key="frame" x="193.66666666666663" y="601.33333333333337" width="161.33333333333337" height="138"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ehn-FW-hL4" appends="YES" id="TvW-9K-spS"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xlv-rI-Tok">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tacos1" translatesAutoresizingMaskIntoConstraints="NO" id="xlv-rI-Tok">
                                 <rect key="frame" x="20" y="601" width="161.33333333333334" height="138"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="JI1-gl-RDx" appends="YES" id="kjC-cS-8EF"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yIW-Hn-18i">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nachos1" translatesAutoresizingMaskIntoConstraints="NO" id="yIW-Hn-18i">
                                 <rect key="frame" x="193.66666666666663" y="426" width="161.33333333333337" height="138"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qeo-FT-QGq" appends="YES" id="IeD-PI-44e"/>
+                                </connections>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guacamole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYp-nX-q4R">
+                                <rect key="frame" x="47" y="515" width="106" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RachelBrown-Regular" family="RachelBrown" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.95984916769821005" blue="0.94255896407697748" alpha="0.63992936643835618" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nachos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1a-T9-qPd">
+                                <rect key="frame" x="240" y="515" width="69" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RachelBrown-Regular" family="RachelBrown" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.95984916769999995" blue="0.94255896409999995" alpha="0.63992936639999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tacos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OO3-jN-8PS" userLabel="Tacos">
+                                <rect key="frame" x="73" y="676" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RachelBrown-Regular" family="RachelBrown" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.95984916769999995" blue="0.94255896409999995" alpha="0.63992936639999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tamales" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIb-g6-19m" userLabel="Tacos">
+                                <rect key="frame" x="234" y="676" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RachelBrown-Regular" family="RachelBrown" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.95984916769999995" blue="0.94255896409999995" alpha="0.63992936639999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.75408679249999999" green="0.47547467369974356" blue="0.33722467136156797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -70,7 +114,9 @@
                             <constraint firstItem="VEc-eo-0fD" firstAttribute="top" secondItem="5FB-za-4aM" secondAttribute="bottom" constant="9.3333333333333144" id="1S0-dh-2bY"/>
                             <constraint firstItem="xlv-rI-Tok" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.17" id="4i2-9N-u4x"/>
                             <constraint firstItem="pzT-bT-WpX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="5MS-aR-8aC"/>
+                            <constraint firstItem="D3d-Da-13P" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="7Kc-BB-FbI"/>
                             <constraint firstItem="yIW-Hn-18i" firstAttribute="top" secondItem="xlv-rI-Tok" secondAttribute="bottom" constant="9.3333333333333144" id="7y0-uy-73h"/>
+                            <constraint firstItem="D3d-Da-13P" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="8HX-ZY-oYf"/>
                             <constraint firstItem="VEc-eo-0fD" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.23" id="8t4-nL-Nbb"/>
                             <constraint firstItem="pzT-bT-WpX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9cf-KL-ugG"/>
                             <constraint firstItem="Ru1-Ah-ODS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="AJy-C0-ChH"/>
@@ -118,6 +164,7 @@
                             <constraint firstItem="xlv-rI-Tok" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.23" id="e2Y-fW-0Ex"/>
                             <constraint firstItem="5FB-za-4aM" firstAttribute="leading" secondItem="Ru1-Ah-ODS" secondAttribute="trailing" constant="25.333333333333314" id="eNe-fU-Tb7"/>
                             <constraint firstItem="VEc-eo-0fD" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="eoq-fY-MOb"/>
+                            <constraint firstItem="D3d-Da-13P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ewE-ix-Sfm"/>
                             <constraint firstItem="RLQ-S9-9q8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="175" id="f3S-U5-yDL"/>
                             <constraint firstItem="5FB-za-4aM" firstAttribute="top" secondItem="Ru1-Ah-ODS" secondAttribute="bottom" constant="36.670000000000002" id="f6B-xf-hla"/>
                             <constraint firstItem="xlv-rI-Tok" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.23" id="fE6-zF-osS"/>
@@ -132,6 +179,7 @@
                             <constraint firstItem="RLQ-S9-9q8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="kKx-Dc-nPu"/>
                             <constraint firstItem="yIW-Hn-18i" firstAttribute="leading" secondItem="VEc-eo-0fD" secondAttribute="trailing" constant="18.333333333333371" id="lYZ-e7-2qU"/>
                             <constraint firstAttribute="trailing" secondItem="pzT-bT-WpX" secondAttribute="trailing" id="mFj-ep-XeU"/>
+                            <constraint firstItem="D3d-Da-13P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mnN-2Z-qcM"/>
                             <constraint firstItem="Ru1-Ah-ODS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="n2I-40-2Ie"/>
                             <constraint firstItem="xlv-rI-Tok" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="o5p-1f-EIk"/>
                             <constraint firstItem="yIW-Hn-18i" firstAttribute="top" secondItem="Ru1-Ah-ODS" secondAttribute="bottom" constant="36" id="oJR-31-Qn8"/>
@@ -156,11 +204,6 @@
                                 <exclude reference="Q7a-hQ-2co"/>
                                 <exclude reference="TUh-SI-7Lc"/>
                                 <exclude reference="UJ7-cJ-ADI"/>
-                                <exclude reference="AJy-C0-ChH"/>
-                                <exclude reference="SvC-0t-MRH"/>
-                                <exclude reference="ark-VF-rFT"/>
-                                <exclude reference="iqB-jf-cs7"/>
-                                <exclude reference="n2I-40-2Ie"/>
                                 <exclude reference="0PN-QI-Z9x"/>
                                 <exclude reference="KEF-5Y-0ZI"/>
                                 <exclude reference="NBl-9b-kYD"/>
@@ -185,14 +228,19 @@
                                 <exclude reference="vSR-I2-GGX"/>
                                 <exclude reference="yn5-EI-EaE"/>
                                 <exclude reference="yqz-cS-VMg"/>
+                                <exclude reference="AJy-C0-ChH"/>
+                                <exclude reference="SvC-0t-MRH"/>
+                                <exclude reference="ark-VF-rFT"/>
+                                <exclude reference="iqB-jf-cs7"/>
+                                <exclude reference="n2I-40-2Ie"/>
                                 <exclude reference="QJQ-zA-0B4"/>
                                 <exclude reference="SC7-Hq-XWe"/>
                                 <exclude reference="eNe-fU-Tb7"/>
                                 <exclude reference="tQb-uG-FdK"/>
-                                <exclude reference="1S0-dh-2bY"/>
-                                <exclude reference="8t4-nL-Nbb"/>
-                                <exclude reference="eoq-fY-MOb"/>
-                                <exclude reference="gtc-I7-yiS"/>
+                                <exclude reference="7y0-uy-73h"/>
+                                <exclude reference="HBY-2w-vTP"/>
+                                <exclude reference="kAh-f9-3ng"/>
+                                <exclude reference="lYZ-e7-2qU"/>
                                 <exclude reference="LzC-VE-VUX"/>
                                 <exclude reference="NVu-yf-wvI"/>
                                 <exclude reference="QuS-wm-0Fn"/>
@@ -201,10 +249,10 @@
                                 <exclude reference="fE6-zF-osS"/>
                                 <exclude reference="gaZ-Q0-5on"/>
                                 <exclude reference="gyv-Er-288"/>
-                                <exclude reference="7y0-uy-73h"/>
-                                <exclude reference="HBY-2w-vTP"/>
-                                <exclude reference="kAh-f9-3ng"/>
-                                <exclude reference="lYZ-e7-2qU"/>
+                                <exclude reference="1S0-dh-2bY"/>
+                                <exclude reference="8t4-nL-Nbb"/>
+                                <exclude reference="eoq-fY-MOb"/>
+                                <exclude reference="gtc-I7-yiS"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -217,15 +265,6 @@
                                 <exclude reference="T7a-QF-zjj"/>
                                 <exclude reference="TUh-SI-7Lc"/>
                                 <include reference="UJ7-cJ-ADI"/>
-                                <include reference="AJy-C0-ChH"/>
-                                <include reference="SvC-0t-MRH"/>
-                                <exclude reference="VU4-TY-JkH"/>
-                                <exclude reference="Xb1-Te-3Ak"/>
-                                <exclude reference="Xfz-b4-hLf"/>
-                                <exclude reference="ark-VF-rFT"/>
-                                <exclude reference="fZP-by-x8U"/>
-                                <exclude reference="iqB-jf-cs7"/>
-                                <exclude reference="n2I-40-2Ie"/>
                                 <exclude reference="0PN-QI-Z9x"/>
                                 <exclude reference="JNW-MS-FHX"/>
                                 <include reference="KEF-5Y-0ZI"/>
@@ -258,6 +297,15 @@
                                 <include reference="vSR-I2-GGX"/>
                                 <include reference="yn5-EI-EaE"/>
                                 <exclude reference="yqz-cS-VMg"/>
+                                <include reference="AJy-C0-ChH"/>
+                                <include reference="SvC-0t-MRH"/>
+                                <exclude reference="VU4-TY-JkH"/>
+                                <exclude reference="Xb1-Te-3Ak"/>
+                                <exclude reference="Xfz-b4-hLf"/>
+                                <exclude reference="ark-VF-rFT"/>
+                                <exclude reference="fZP-by-x8U"/>
+                                <exclude reference="iqB-jf-cs7"/>
+                                <exclude reference="n2I-40-2Ie"/>
                                 <exclude reference="NB9-aY-yIp"/>
                                 <include reference="QJQ-zA-0B4"/>
                                 <include reference="SC7-Hq-XWe"/>
@@ -266,13 +314,13 @@
                                 <include reference="eNe-fU-Tb7"/>
                                 <exclude reference="f6B-xf-hla"/>
                                 <include reference="tQb-uG-FdK"/>
-                                <include reference="1S0-dh-2bY"/>
-                                <include reference="8t4-nL-Nbb"/>
-                                <exclude reference="bBE-3H-ChI"/>
-                                <include reference="eoq-fY-MOb"/>
-                                <include reference="gtc-I7-yiS"/>
-                                <exclude reference="hcO-8g-MyB"/>
-                                <exclude reference="ob7-Y8-NAp"/>
+                                <include reference="7y0-uy-73h"/>
+                                <include reference="HBY-2w-vTP"/>
+                                <exclude reference="Qr3-Yb-aej"/>
+                                <include reference="kAh-f9-3ng"/>
+                                <include reference="lYZ-e7-2qU"/>
+                                <exclude reference="oJR-31-Qn8"/>
+                                <exclude reference="z7z-Lr-nWq"/>
                                 <exclude reference="4i2-9N-u4x"/>
                                 <exclude reference="AcY-Zt-GYR"/>
                                 <exclude reference="Jhb-79-hs6"/>
@@ -285,24 +333,43 @@
                                 <exclude reference="gaZ-Q0-5on"/>
                                 <include reference="gyv-Er-288"/>
                                 <exclude reference="o5p-1f-EIk"/>
-                                <include reference="7y0-uy-73h"/>
-                                <include reference="HBY-2w-vTP"/>
-                                <exclude reference="Qr3-Yb-aej"/>
-                                <include reference="kAh-f9-3ng"/>
-                                <include reference="lYZ-e7-2qU"/>
-                                <exclude reference="oJR-31-Qn8"/>
-                                <exclude reference="z7z-Lr-nWq"/>
+                                <include reference="1S0-dh-2bY"/>
+                                <include reference="8t4-nL-Nbb"/>
+                                <exclude reference="bBE-3H-ChI"/>
+                                <include reference="eoq-fY-MOb"/>
+                                <include reference="gtc-I7-yiS"/>
+                                <exclude reference="hcO-8g-MyB"/>
+                                <exclude reference="ob7-Y8-NAp"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="doTapTamales" destination="ehn-FW-hL4" id="1Ur-YO-ebp"/>
                         <outlet property="imgGuacamole" destination="5FB-za-4aM" id="TRI-vS-p98"/>
+                        <outlet property="imgNachos" destination="yIW-Hn-18i" id="mGM-Ij-s9Q"/>
+                        <outlet property="imgTacos" destination="xlv-rI-Tok" id="reR-UC-vIX"/>
+                        <outlet property="imgTamales" destination="VEc-eo-0fD" id="pDA-BR-TVW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="MAh-sM-T31" userLabel="Tap Guacamole">
                     <connections>
                         <action selector="doTapGuacamole:" destination="BYZ-38-t0r" id="hOB-47-ajJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="qeo-FT-QGq" userLabel="Tap Nachos">
+                    <connections>
+                        <action selector="doTapNachos:" destination="BYZ-38-t0r" id="ajV-h8-bZB"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="JI1-gl-RDx" userLabel="Tap Tacos">
+                    <connections>
+                        <action selector="doTapTacos:" destination="BYZ-38-t0r" id="KkU-rj-npz"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ehn-FW-hL4" userLabel="Tap Tamales">
+                    <connections>
+                        <action selector="doTapTamales:" destination="BYZ-38-t0r" id="Fjt-5G-5Xr"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -312,5 +379,8 @@
     <resources>
         <image name="background" width="125" height="270"/>
         <image name="guacamole1" width="466" height="283"/>
+        <image name="nachos1" width="233" height="141"/>
+        <image name="tacos1" width="1400" height="850"/>
+        <image name="tamales1" width="466" height="283"/>
     </resources>
 </document>
