@@ -30,11 +30,6 @@
                             <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="D3d-Da-13P">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cKc-YS-oZn">
-                                <rect key="frame" x="0.0" y="55" width="375" height="127"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.65226142435417678" green="1" blue="0.46506915910241209" alpha="0.63992936643835618" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEXICAN FOOD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLQ-S9-9q8">
                                 <rect key="frame" x="0.0" y="81" width="375" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" name="TacosdeTijuana" family="Tacos de Tijuana" pointSize="27"/>
@@ -102,9 +97,16 @@
                                 <color key="textColor" red="1" green="0.95984916769999995" blue="0.94255896409999995" alpha="0.63992936639999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose one" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hS-Wt-LLX">
+                                <rect key="frame" x="0.0" y="405" width="375" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" name="RachelBrown-Regular" family="RachelBrown" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.95984916769999995" blue="0.94255896409999995" alpha="0.63992936639999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.75408679249999999" green="0.47547467369974356" blue="0.33722467136156797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="4hS-Wt-LLX" firstAttribute="top" secondItem="Ru1-Ah-ODS" secondAttribute="bottom" constant="15" id="09A-Ic-E8x"/>
                             <constraint firstItem="RLQ-S9-9q8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0PN-QI-Z9x"/>
                             <constraint firstItem="pzT-bT-WpX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0pW-rU-KDS"/>
                             <constraint firstItem="VEc-eo-0fD" firstAttribute="top" secondItem="5FB-za-4aM" secondAttribute="bottom" constant="9.3333333333333144" id="1S0-dh-2bY"/>
@@ -123,6 +125,7 @@
                             <constraint firstItem="UIb-g6-19m" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.03" id="BTX-tq-hus"/>
                             <constraint firstItem="pzT-bT-WpX" firstAttribute="top" secondItem="RLQ-S9-9q8" secondAttribute="bottom" constant="8.6666666666666856" id="Bep-hz-PVA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ru1-Ah-ODS" secondAttribute="bottom" id="Fwo-Vf-Ftx"/>
+                            <constraint firstItem="4hS-Wt-LLX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GBy-Om-Tg2"/>
                             <constraint firstItem="yIW-Hn-18i" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.23" id="HBY-2w-vTP"/>
                             <constraint firstItem="RLQ-S9-9q8" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="JNW-MS-FHX"/>
                             <constraint firstAttribute="trailing" secondItem="pzT-bT-WpX" secondAttribute="trailing" id="JVL-Tv-0ya"/>
@@ -148,6 +151,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yIW-Hn-18i" secondAttribute="trailing" constant="20" id="T7a-QF-zjj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="Ru1-Ah-ODS" secondAttribute="leading" constant="3" id="TUh-SI-7Lc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="Ru1-Ah-ODS" secondAttribute="leading" constant="3" id="UJ7-cJ-ADI"/>
+                            <constraint firstItem="4hS-Wt-LLX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="UN4-tw-80r"/>
                             <constraint firstItem="pzT-bT-WpX" firstAttribute="leading" secondItem="Ru1-Ah-ODS" secondAttribute="trailing" constant="-374" id="VBi-rZ-oEZ"/>
                             <constraint firstItem="Ru1-Ah-ODS" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="VU4-TY-JkH"/>
                             <constraint firstItem="pzT-bT-WpX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="W6o-Yo-4Z6"/>
@@ -179,6 +183,7 @@
                             <constraint firstItem="VEc-eo-0fD" firstAttribute="leading" secondItem="Ru1-Ah-ODS" secondAttribute="trailing" constant="25.333333333333314" id="gtc-I7-yiS"/>
                             <constraint firstItem="xlv-rI-Tok" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="116" id="gyv-Er-288"/>
                             <constraint firstItem="VEc-eo-0fD" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.43" id="hcO-8g-MyB"/>
+                            <constraint firstItem="4hS-Wt-LLX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="hz9-my-Sfc"/>
                             <constraint firstItem="Ru1-Ah-ODS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.41" id="iqB-jf-cs7"/>
                             <constraint firstItem="pzT-bT-WpX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="jfb-g9-jJN"/>
                             <constraint firstItem="yIW-Hn-18i" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="kAh-f9-3ng"/>
@@ -359,8 +364,10 @@
                         <outlet property="doTapTamales" destination="ehn-FW-hL4" id="1Ur-YO-ebp"/>
                         <outlet property="imgGuacamole" destination="5FB-za-4aM" id="TRI-vS-p98"/>
                         <outlet property="imgNachos" destination="yIW-Hn-18i" id="mGM-Ij-s9Q"/>
+                        <outlet property="imgSec" destination="Ru1-Ah-ODS" id="tt4-fl-cnH"/>
                         <outlet property="imgTacos" destination="xlv-rI-Tok" id="reR-UC-vIX"/>
                         <outlet property="imgTamales" destination="VEc-eo-0fD" id="pDA-BR-TVW"/>
+                        <outlet property="lblCambio" destination="4hS-Wt-LLX" id="JZc-0z-Lac"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

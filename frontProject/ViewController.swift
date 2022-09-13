@@ -25,7 +25,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var imgTamales: UIImageView!
     var secTamales : [UIImage] = []
     
+    @IBOutlet weak var imgSec: UIImageView!
+    var secSec : [UIImage] = []
     /////////////////
+    @IBOutlet weak var lblCambio: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         do {
@@ -47,6 +51,43 @@ class ViewController: UIViewController {
             print(error.localizedDescription)
         }
         // Do any additional setup after loading the view, typically from a nib.
+        
+            for i in 1...11 {
+                let imagen = UIImage (named: "guacamole\(i)")
+                secGuacamole.append(imagen!)
+            }
+        
+            imgGuacamole.animationImages = secGuacamole
+            imgGuacamole.animationDuration = 1.5
+            imgGuacamole.startAnimating()
+        
+        for i in 1...14{
+            let imagen = UIImage (named: "nachos\(i)")
+            secNachos.append(imagen!)
+        }
+        
+        imgNachos.animationImages = secNachos
+        imgNachos.animationDuration = 2.0
+        imgNachos.startAnimating()
+        
+        for i in 1...21{
+            let imagen = UIImage (named: "tamales\(i)")
+            secTamales.append(imagen!)
+        }
+        
+        imgTamales.animationImages = secTamales
+        imgTamales.animationDuration = 2.0
+        imgTamales.startAnimating()
+        
+        for i in 1...28{
+            let imagen = UIImage (named: "tacos\(i)")
+            secTacos.append(imagen!)
+        }
+        
+        imgTacos.animationImages = secTacos
+        imgTacos.animationDuration = 2.0
+        imgTacos.startAnimating()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,49 +97,56 @@ class ViewController: UIViewController {
     /////////////////
 
     @IBAction func doTapGuacamole(_ sender: Any) {
-        for i in 1...11 {
-            let imagen = UIImage (named: "guacamole\(i)")
-            secGuacamole.append(imagen!)
+        lblCambio.text = "Guacamole!!"
+        secSec = []
+        for i in 1...16{
+            let imagen = UIImage (named: "guacamoles\(i)")
+            secSec.append(imagen!)
         }
         
-        imgGuacamole.animationImages = secGuacamole
-        imgGuacamole.animationDuration = 1.5
-        imgGuacamole.startAnimating()
+        imgSec.animationImages = secSec
+        imgSec.animationDuration = 2.0
+        imgSec.startAnimating()
     }
     
-    
     @IBAction func doTapNachos(_ sender: Any) {
-        for i in 1...14{
-            let imagen = UIImage (named: "nachos\(i)")
-            secNachos.append(imagen!)
+        lblCambio.text = "Nacho!!"
+        secSec = []
+        for i in 1...16{
+            let imagen = UIImage (named: "nacho\(i)")
+            secSec.append(imagen!)
         }
         
-        imgNachos.animationImages = secNachos
-        imgNachos.animationDuration = 2.0
-        imgNachos.startAnimating()
+        imgSec.animationImages = secSec
+        imgSec.animationDuration = 2.0
+        imgSec.startAnimating()
     }
     
     @IBAction func doTapTacos(_ sender: Any) {
-        for i in 1...28{
-            let imagen = UIImage (named: "tacos\(i)")
-            secTacos.append(imagen!)
+        lblCambio.text = "Taco!!"
+        secSec = []
+        for i in 1...16{
+            let imagen = UIImage (named: "taco\(i)")
+            secSec.append(imagen!)
         }
         
-        imgTacos.animationImages = secTacos
-        imgTacos.animationDuration = 2.0
-        imgTacos.startAnimating()
+        imgSec.animationImages = secSec
+        imgSec.animationDuration = 2.0
+        imgSec.startAnimating()
     }
     
     
     @IBAction func doTapTamales(_ sender: Any) {
-        for i in 1...21{
-            let imagen = UIImage (named: "tamales\(i)")
-            secTamales.append(imagen!)
+        lblCambio.text = "Tamales!!"
+        secSec = []
+        for i in 1...16{
+            let imagen = UIImage (named: "tamal\(i)")
+            secSec.append(imagen!)
         }
         
-        imgTamales.animationImages = secTamales
-        imgTamales.animationDuration = 2.0
-        imgTamales.startAnimating()
+        imgSec.animationImages = secSec
+        imgSec.animationDuration = 2.0
+        imgSec.startAnimating()
     }
     
     
